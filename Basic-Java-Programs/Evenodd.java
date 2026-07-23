@@ -1,0 +1,13 @@
+public class Evenodd {
+    public static void main(String[] args) {
+        int n=10;
+        for(int i=1;i<=n;i++){
+         if(i%2==0){
+            System.out.println(i+" is the even");
+         }
+         else{
+            System.out.println(i+" is the odd");
+         }
+        }
+    }
+}
