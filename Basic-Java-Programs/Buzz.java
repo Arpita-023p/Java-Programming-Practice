@@ -4,7 +4,7 @@ public class Buzz {
         int rem;
         int digit;
          rem=number%10;
-         digit=number%7;
+         digit=number/7;
         if(digit==0||rem==7){
          System.out.println("buzz");
         }
